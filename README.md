@@ -1,2 +1,2 @@
 # About-me
-This project for educational purpose 
+This project for educational purpose .
