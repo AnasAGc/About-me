@@ -1,80 +1,98 @@
-'use strict'
-let user = prompt("please enter your name ")
-alert("Hello " + user )
-let qu1=prompt("Do you believe in ghosts? ","yes or no ")
+'use strict';
+let user = prompt("please enter your name ");
+let i= 0;
+alert("Hello " + user );
+let qu1=prompt("Do you think Im tell man ? ","yes or no ");
 qu1=qu1.toLocaleLowerCase();
-console.log(qu1)
+console.log(qu1);
 switch(qu1){
 case'yes':
 case 'y':
- alert("Wooow");
+ alert("good guess ");
+ i=i+1;
  break;
 
 case 'no':
 case 'n':
- alert ("Im happy for you ");
+ alert ("nope I am  ");
  break;
+ default:
+  alert('okay no problem'); 
 
 }
 
-let qu2=prompt("Can you see out the back of your head?");
+let qu2=prompt("DO you think I like movies");
 qu2=qu2.toLocaleLowerCase();
 switch(qu2){
 case'yes':
 case 'y':
-alert("You Are A super man ");
+alert("You Are super right ");
+i=i+1;
 break;
 case'no':
 case 'n':
-alert("Its Ok dont be Sad ")
+alert("You Are super wrong ");
 break;
+default:
+  alert('okay no problem'); 
 }
 
 
 
-let qu3=prompt("Can you see the moon?");
+let qu3=prompt("do you think Im older then 25 ");
 qu3=qu3.toLocaleLowerCase();
 switch(qu3){
 case'yes':
 case 'y':
-alert("IT IS YOU ");
+alert("npoe Im 23 ");
+i=i++;
 break;
 case'no':
 case 'n':
-alert("IT IS YOU  ")
+alert("ok thats  good guess Im 23  ");
+
 break;
+default:
+  alert('okay no problem'); 
 }
 
 
 
-let qu4=prompt("Do you believe in Santa Claus?");
+let qu4=prompt("Do you believe in hard work ?");
 qu4=qu4.toLocaleLowerCase();
 switch(qu4){
 case'yes':
 case 'y':
-alert(" He nover Show up  ");
+alert(" yess me too   ");
+i=i+1;
 break;
 case'no':
 case 'n':
-alert("ME too  ")
+alert("you should   ");
 break;
+default:
+  alert('okay no problem'); 
 }
 
-let qu5=prompt("Do you have a twin?");
+let qu5=prompt("Do you think I have a twin?");
 qu5=qu5.toLocaleLowerCase();
 switch(qu5){
 case'yes':
 case 'y':
-alert(" You are lucky   ");
+alert(" nope    ");
 break;
 case'no':
 case 'n':
-alert(" ME too  ")
+alert(" yeah Im Alone   ");
+i=i+1;
 break;
+default:
+  alert('okay no problem'); 
 }
 
-document.write(user + "Welcome my site ")
-console.log(user + " hey Man  ")
+alert(`you got ` + i +`/5`)
+document.write(user + "Welcome my site ");
+console.log(user + " hey Man  ");
 
 
 //  let answer=prompt("yesss")

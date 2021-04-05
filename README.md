@@ -11,6 +11,9 @@ This web have there main parts each one has  function to do :
 +  javaScript part responsible of functioning for site 
 
 # How to use?
+* enter your name 
+* the pop box will ask you 5 questions 
+* your result will show up after finish 
 
 
 # Credits 
