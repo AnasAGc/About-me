@@ -1,6 +1,8 @@
+
+
 'use strict';
 let user = prompt("please enter your name ");
-let i= 0;
+let i= 1;
 alert("Hello " + user );
 let qu1=prompt("Do you think Im tell man ? ","yes or no ");
 qu1=qu1.toLocaleLowerCase();
@@ -10,6 +12,8 @@ case'yes':
 case 'y':
  alert("good guess ");
  i=i+1;
+ console.log(i);
+
  break;
 
 case 'no':
@@ -28,6 +32,8 @@ case'yes':
 case 'y':
 alert("You Are super right ");
 i=i+1;
+console.log(i);
+
 break;
 case'no':
 case 'n':
@@ -46,6 +52,8 @@ case'yes':
 case 'y':
 alert("npoe Im 23 ");
 i=i++;
+console.log(i);
+
 break;
 case'no':
 case 'n':
@@ -65,6 +73,8 @@ case'yes':
 case 'y':
 alert(" yess me too   ");
 i=i+1;
+console.log(i);
+
 break;
 case'no':
 case 'n':
@@ -84,30 +94,68 @@ break;
 case'no':
 case 'n':
 alert(" yeah Im Alone   ");
-i=i+1;
+i=i + 1;
+console.log(i);
+
 break;
 default:
   alert('okay no problem'); 
 }
 
-alert(`you got ` + i +`/5`)
+for (let h=3 ; h>=0;h--){
+  
+ let userage=prompt("Guess what is my age ???");
+  userage=parseInt(userage);
+  
+  if (userage>=23){
+    if(userage===23){
+      alert(" Thats Right ");
+      i=i+1;
+      console.log(i);
+        break;
+    }else{
+      alert("Too high ")
+            alert("you have "+ h  +" trails left")
+    }
+  
+  }else{
+    alert("Too low")
+    alert("you have "+ h + " trails left")
+    
+    
+  }
+  if(h===0){
+    alert("THE Right Answer is 23" )
+  }
+}
+
+
+let cars=['bmw','mercedes',"audi"]
+for ( let k =5;k>=0;k--){
+  let favcar=prompt("Guess what is my favarate cars are ?")
+  favcar=favcar.toLocaleLowerCase()
+
+switch(favcar){
+  
+  case cars[0]:
+  case cars[1]:
+  case cars[2]:
+  alert(" GOOD GUESS")
+  i=i+1
+  console.log(i)
+  k=-1
+  break;
+
+  default:
+  alert("TRY AGAIN ");
+  alert("you have "+ k + " trails left");
+ 
+   if (k===0){
+    alert("THE CORRECT ANSWERS ARE BMW MERCEDES AUDI ");
+  }
+}
+}
+alert(`you got ` + i +`/7`)
 document.write(user + "Welcome my site ");
-console.log(user + " hey Man  ");
 
 
-//  let answer=prompt("yesss")
-// switch(answer){
-// case 'yes': // T
-// case 'y':
-//   alert('Yes actually i do');
-//   break; // stop the switch statement
-// case 'no':
-// case 'n':
-//   alert('No i do like handmade stuff');
-//   break;
-// case 'maybe':
-//   alert('your not sure');
-//   break;
-// default:
-//   alert('okay no problem'); 
-// }
