@@ -18,7 +18,7 @@ This web have there main parts each one has  function to do :
 
 # Credits 
 
-+ I got some help form Omar Thiab on linter my code and but some function in it 
++ I got some help form Omar Thiab on linter my code and put some function in it 
 
 + Thanks for Bashar and all  the TA who Help me with my coures , I glad to  have such opportunity . 
 
