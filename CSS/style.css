@@ -1,26 +1,109 @@
-h1 {
-    text-align: center;
-    color: #1b1717;
-    background-color: #eeebdd;
+h1{
+
+    background-color: #2b2e4a;
+    height: 50px;
+    color: white;
     font-size: 30px;
-    ;
-    }
-    header nav ul li {
-        list-style-type: none;
-        display: inline;
-        margin: 200px;
-        font-size: 20px;
-        
-    }
+    text-align: center;
 
-    body{
-        background-color: #eeebdd;
-    }
 
-    section{
-        margin: 100px;
+}
+body{
+    background-color: #e84545;
+}
 
-        text-align: center;
+header nav ul li  {
+    font-size: 25px;
+    margin: 50;
+    display: inline-block;
+    padding: 50px;
+
     }
 
     
+    header nav ul li:last-child {
+        margin-left: 1000px;
+    }
+    header nav ul li:first-child {
+        margin-left: 200px;
+
+    }
+
+a:link {
+    color: #53354a;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #53354a;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
+
+  main div{
+
+    width: 300px;
+    border: 15px solid #903749;
+    padding: 50px;
+    margin: 20px;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+
+  }
+  main div a{
+
+    background-color: #53354a;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+     display: inline-block;
+  }
+  
+  img {
+
+    float: right;
+    width: 50;
+    height: 50;
+
+  }
+
+  section{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    color: white;
+   
+  }
+ #button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  footer {
+      color: white;
+      height: 30px;
+    background-color: #53354a;
+    text-align: left;
+    font-size: 25px;
+  }
